@@ -13,6 +13,7 @@ import { ErrorPageComponent } from './pages/error-page/error-page.component';
 
 //services
 import { BlogService } from './providers/blog.service';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { BlogService } from './providers/blog.service';
     HomePageComponent,
     PostPageComponent,
     ErrorPageComponent,
+    HeaderComponent,
   ],
   imports: [
     RoutingModule,
